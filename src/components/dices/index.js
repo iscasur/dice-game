@@ -1,7 +1,6 @@
 import React, { useState, useRef } from 'react';
 
 import './index.css';
-import dice1 from '../../images/dice1.svg';
 
 function Dices() {
   const user1 = useRef(null);
@@ -61,8 +60,8 @@ function Dices() {
   */
 
   const roll = () => {
-    user1.current.setAttribute('src', './src/images/dice1.svg');
-    user2.current.setAttribute('src', './src/images/dice2.svg');
+    user1.current.setAttribute('src', '/images/dice1.svg');
+    user2.current.setAttribute('src', '/images/dice2.svg');
   };
 
   return (
