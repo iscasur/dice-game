@@ -1,0 +1,26 @@
+.dice-wrapper {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dice-area {
+  text-align: center;
+}
+
+p {
+  font-size: 1.6rem;
+  margin: 30px 0;
+}
+
+button {
+  background-color: #e92e3d;
+  border: none;
+  outline: none;
+  padding: 15px 0;
+  width: 150px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+}
