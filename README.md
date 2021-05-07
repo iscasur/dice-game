@@ -1,10 +1,10 @@
 # Dice Game 🎲
 
-This is a Dice Game build with React JS.
-
 ![Dice Game 🎲](./static/dice-game.png)
 
-Site:
+This is a Dice Game built with React JS.
+
+Site: https://dice-react.netlify.app/
 
 ## Technologies
 
