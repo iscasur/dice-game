@@ -8,20 +8,34 @@
   text-align: center;
 }
 
-p {
-  font-size: 1.6rem;
-  margin: 30px 0;
+h2 {
+  margin: 2rem 0;
 }
 
-button {
+p {
+  font-size: 1.6rem;
+  margin: 3rem 0;
+}
+
+.btn {
   background-color: #836fa9;
   border: none;
   outline: none;
-  padding: 15px 0;
-  width: 150px;
-  letter-spacing: 1px;
-  border-radius: 5px;
+  padding: 1.5rem 0;
+  width: 15rem;
+  letter-spacing: 0.1rem;
+  border-radius: 0.5rem;
   color: #fff;
   text-transform: uppercase;
-  cursor: pointer; 
+  cursor: pointer;
+}
+
+.reset {
+  background-color: transparent;
+  color: #836fa9;
+}
+
+ul {
+  list-style: none;
+  font-size: 1.6rem;
 }
