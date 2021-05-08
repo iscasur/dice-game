@@ -1,4 +1,10 @@
 import React, { useState, useRef } from 'react';
+import dice1 from '../../images/dice1.svg';
+import dice2 from '../../images/dice2.svg';
+import dice3 from '../../images/dice3.svg';
+import dice4 from '../../images/dice4.svg';
+import dice5 from '../../images/dice5.svg';
+import dice6 from '../../images/dice6.svg';
 
 import './index.css';
 
@@ -10,12 +16,12 @@ function Dices() {
   const resultDice = useRef(null);
 
   let diceImages = [
-    '../images/dice1.svg',
-    '../images/dice2.svg',
-    '../images/dice3.svg',
-    '../images/dice4.svg',
-    '../images/dice5.svg',
-    '../images/dice6.svg',
+    dice1,
+    dice2,
+    dice3,
+    dice4,
+    dice5,
+    dice6,
   ];
 
   const roll = () => {
@@ -43,11 +49,11 @@ function Dices() {
       <div className='dice-wrapper'>
         <div className='dice-area'>
           <p>User 1</p>
-          <img src='../images/dice1.svg' ref={user1} alt='Dice' />
+          <img src={dice1} ref={user1} alt='Dice' />
         </div>
         <div className='dice-area'>
           <p>User 2</p>
-          <img src='../images/dice1.svg' ref={user2} alt='Dice' />
+          <img src={dice1} ref={user2} alt='Dice' />
         </div>
       </div>
       <p className='result' ref={resultDice}>

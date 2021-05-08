@@ -23,4 +23,5 @@ button {
   border-radius: 5px;
   color: #fff;
   text-transform: uppercase;
+  cursor: pointer; 
 }
